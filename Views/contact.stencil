@@ -1,0 +1,40 @@
+{% extends "master.stencil" %}
+	{% block body %}
+
+	<section id="contact" class="content-section text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>Contact</h2>
+            <p>Lorem ipsum dolor sit amet, mel stet euismod ullamcorper ea, per ex aliquid sanctus. In erant audire numquam has, vim te quidam euripidis dissentias, te vim choro semper aliquip. Usu te tollit lobortis vituperata. Id has ubique mucius, sed eu insolens singulis patrioque.</p>
+            <ul class="list-inline banner-social-buttons">
+              <li class="list-inline-item">
+                <a href="Link til Twitter" class="btn btn-default btn-lg">
+                  <i class="fa fa-twitter fa-fw"></i>
+                  <span class="network-name">Twitter</span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="Link til github eller annet sted.. f.eks instagram" class="btn btn-default btn-lg">
+                  <i class="fa fa-github fa-fw"></i>
+                  <span class="network-name">Github</span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="Link til google+" class="btn btn-default btn-lg">
+                  <i class="fa fa-google-plus fa-fw"></i>
+                  <span class="network-name">Google+</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+		<!-- Map Section -->
+		<div id="map"></div>
+
+		{% include "footer.stencil" %}
+	{% endblock %}

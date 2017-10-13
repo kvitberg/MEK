@@ -1,0 +1,17 @@
+{% extends "master.stencil" %}
+	{% block body%}
+ <!-- Page Content -->
+ <section id="about" class="content-section text-center">
+   <div class="container">
+	 <div class="row">
+	   <div class="col-lg-8 mx-auto">
+		 <h2>Work</h2>
+		 <p>Lorem ipsum dolor sit amet, mel stet euismod ullamcorper ea, per ex aliquid sanctus. In erant audire numquam has, vim te quidam euripidis dissentias, te vim choro semper aliquip. Usu te tollit lobortis vituperata. Id has ubique mucius, sed eu insolens singulis patrioque.
+</p>
+	   </div>
+	 </div>
+   </div>
+ </section>
+ <!-- /.container -->
+ {% include "footer.stencil" %}
+	{% endblock %}

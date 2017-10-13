@@ -1,0 +1,22 @@
+{% extends "master.stencil" %}
+
+	{% block body %}
+
+		<!-- Intro Header -->
+    	<header class="masthead">
+      		<div class="intro-body">
+        		<div class="container">
+          			<div class="row">
+            			<div class="col-lg-8 mx-auto">
+              				<h1 class="brand-heading">MEK.</h1>
+              				<p class="intro-text"></p>
+            			</div>
+          			</div>
+        		</div>
+      		</div>
+    	</header>
+
+	{% endblock %}
+
+
+{% block title %}Welcome{% endblock %}
