@@ -1,1 +1,1 @@
-web: MEK
+web: .build/debug/MEK
