@@ -46,8 +46,6 @@ a {
     text-decoration: none;
     color: #1d9b6c; }
 
-    section {
-      padding: 100px 0; }
 
 #mainNav {
   font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -281,3 +279,13 @@ body {
         .no-gutter > [class*='col-'] {
           padding-right: 0;
           padding-left: 0; }
+
+.container-fluid {
+              width: 100%;
+              margin-right: auto;
+              margin-left: auto;
+              padding-right: 100px;
+              padding-left: 100px;
+              padding-top: 75px;
+              th: 100%;
+          }
